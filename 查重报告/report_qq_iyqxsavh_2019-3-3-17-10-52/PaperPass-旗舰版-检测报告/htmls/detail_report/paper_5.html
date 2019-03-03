@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 最权威论文抄袭检测系统</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="text-center PT30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_4.html"><span>上一页</span></a></li>
+    <li><a href="paper_6.html"><span>下一页</span></a></li>
+    <li><a href="paper_22.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">5</span>/<span>22</span>
+            页
+        </div>    </div>
+    <div class="paper-txt P30 PB0">
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="143">143</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（2）部署单元。</span> <span class="g-font-color green">该思想中微服务被定义为一种开发和部署的单元，主要是在云环境中部署大型或者中型的应用，</span> <span class="g-font-color green">且这些服务可以独立的开发、测试、部署、扩展、操作、升级。</span> <span class="g-font-color green">这些服务根据注册的方式来划分，在部署和升级的过程中，能被其他服务发现并且可以被编排。</span> <span class="g-font-color green">但是该方法得到的微服务的粒度有可能会很大或者很小。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="144">144</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（3）业务能力。</span> <span class="g-font-color green">业务能力定义为系统在执行独特业务时执行的操作。</span> <span class="g-font-color green">构建微服务是根据是否一次能解决业务需求或者实现一个业务功能。</span> <span class="g-font-color green">然而，开发人员在使用业务功能作为微服务的边界时面临着挑战，定义业务能力应该适合的粒度级别，以便它不会太小或太大。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="145">145</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">综上，以上服务划分策略存在许多问题或者挑战，</span> <span class="g-font-color green">不能得到高效的服务划分策略，另外当前的服务划分方法中并没有根据平台需求以及平台中应用之间功能的相关性来综合考虑，</span> <span class="g-font-color green">这将导致服务划分后的结果是服务之间的耦合性比较差，代码复用率比较低，平台中代码的冗余度比较高。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="146">146</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.2解决方案</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="147">147</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">为了实现低耦合高内聚的微服务划分，提高应用中代码的复用率，降低平台中代码的冗余，在进行微服务划分时，</span> <span class="g-font-color green">我们遵循微服务低耦合高内聚的划分原则，并且考虑到平台中应用之间的功能相关性比较强，两个应用中服务的复用率比较高，</span> <span class="g-font-color green">因此，我们基于软件设计中领域驱动设计思想，</span> <span class="g-font-color green">提出了语义耦合的服务划分策略（ DSCS），</span> <span class="g-font-color green">源自软件工程中领域驱动设计的有界上下文的概念被提出作为微服务及其边界的一种设计思想，</span> <span class="g-font-color green">根据该思想，每个微服务应该对应于问题域中唯一的一个有界上下文。</span><a href='../sentence_detail/411.html' target='right' class='g-font-color orange'>这将确保专注于一项责任的微服务的可扩展性和可维护性。</a> <span class="g-font-color green">因此从软件设计领域提出划分策略，通过信息检索技术检查源代码文件的内容和语义成为一种划分方法，</span> <span class="g-font-color green">其中我们利用 tf- idf方法分析原有系统中文件代码之间语义之间的相关性，得到系统中每个文件的之间的耦合度，</span> <span class="g-font-color green">构建无向加权网络图，之后利用具有“低耦合高内聚规则”的社区划分算法-- GN算法，</span> <span class="g-font-color green">构造了无向加权图，并根据服务划分原则得到了最优划分结果。</span> <span class="g-font-color green">通过实验验证了该方法可以将应用有效划分成微服务，并且能够提高服务的复用率，减少平台的代码冗余。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="148">148</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.3基于语义耦合策略的服务划分模型</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="149">149</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本节语义耦合的服务划分模型是结合软件工程中领域驱动设计思想以及语义相似性来构建的。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="150">150</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.3.1领域驱动设计思想</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="151">151</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">在软件工程中，有一个建模领域驱动设计（DDD）[22]。</span> <span class="g-font-color green">构成领域驱动理论的理论和技术早已存在。</span> <span class="g-font-color green">域驱动程序中的实体对应于OOP中的对象，OOP继承，封装和多态都适用于域驱动的开发。</span> <span class="g-font-color green">域对象应设计为简单的类或接口。</span> <span class="g-font-color green">该思想中主要有三个主要的概念。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="152">152</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（1）域，域与特定的开发技术无关，它是与软件系统需要解决的实际问题相关的所有内容的集合。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="153">153</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（2）子域。</span> <span class="g-font-color green">子域是领域更细粒度的划分，根据功能和重要程度主要分为核心子域、支撑子域、通用子域。</span> <span class="g-font-color green">核心领域是业务成功的关键。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="154">154</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（3）限界上下文。</span> <span class="g-font-color green">边界上下文由系统，应用程序，业务服务和一组实现业务的复杂组件组成。</span> <span class="g-font-color green">通用语言是上下文中每个字段的术语或短语。</span> <span class="g-font-color green">通用语言不是一时促成的，而是各方的人员在讨论中提炼出来的。</span> <span class="g-font-color green">域模型是将通用语言表达为软件模型。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="155">155</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.3.2 语义相似度技术</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="156">156</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本文中提出的服务划分方法使用了语义耦合的划分方法，主要使用语义相似度来表明两个文件之间的关系。</span><a href='../sentence_detail/436.html' target='right' class='g-font-color orange'>相似性是任何两个对象之间存在的一般关系，相似性是相似性的定量表示。</a><a href='../sentence_detail/437.html' target='right' class='g-font-color orange'>相似度计算是信息检索，数据挖掘，知识管理和人工智能领域的基本问题。</a><a href='../sentence_detail/438.html' target='right' class='g-font-color orange'>随着本体的广泛应用，基于本体语义的相似度计算和应用已成为心理学与计算机科学交叉的重要课题。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="157">157</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">Dekang提出了一套广泛定义的相似度，告诉我们物体和物体之间的相似性与它们的共性和差异有关。</span><a href='../sentence_detail/440.html' target='right' class='g-font-color orange'>两个对象越常见，相似性越大，两个对象之间的差异越大，相似性越小。</a><a href='../sentence_detail/441.html' target='right' class='g-font-color orange'>当两个对象是同一个对象时，相似性最大。</a> <span class="g-font-color green">当两个对象不相关时，相似度最小。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="158">158</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">相似性模型的推广分为几何模型和特征比较模型[30] [31]。</span><a href='../sentence_detail/444.html' target='right' class='g-font-color orange'>空间中的对象由点表示，点之间的距离用于反映对象之间的相似性。</a><a href='../sentence_detail/445.html' target='right' class='g-font-color orange'>特征比较模型通过一组特征属性描述对象，并​​且相似性被定义为特征共性和差异的函数。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="159">159</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本文分析对象的相似度使用的是几何模型，能够清晰简单的表示出两个对象相似度。</span> <span class="g-font-color green">语义相似度的计算步骤是：</span> <span class="g-font-color green">1. 特征提取与特征选择。</span> <span class="g-font-color green">一般情况下，我们使用的对象是用自然语言来描述的，这样的话就只能间接被计算机处理。</span><a href='../sentence_detail/450.html' target='right' class='g-font-color orange'>对象的特征提取是指提取对象的主要特征以表示对象。</a> <span class="g-font-color green">现有的特征描述是根据统计方法构造相应的数学模型来表示对象，目的是从所表示的对象中提取最有价值的特征信息。</span> <span class="g-font-color green">但是，也可能遇到要素项的尺寸问题，因此要素选择需要进行特征选择。</span><a href='../sentence_detail/453.html' target='right' class='g-font-color orange'>特征选择需要根据一定的标准选择最能反映对象特征的相关特征，以减小特征维数，简化计算，提高相似度计算的准确性。</a> <span class="g-font-color green">2. 对象的表示。</span> <span class="g-font-color green">通常，使用至少两个特征来描述对象，并​​且使用间隔尺度来量化特征，间隔尺度是由实数表示的定量信息。</span> <span class="g-font-color green">如果选择了某个要素，则该对象可以表示为向量。</span> <span class="g-font-color green">3.相似度具体计算方法。</span> <span class="g-font-color green">设T和T'为矩阵中两个对象的特征向量。</span> <span class="g-font-color green">内积、Dice系数、余弦函数、Jaccard系数等。</span><a href='../sentence_detail/460.html' target='right' class='g-font-color orange'>本文使用余弦函数来计算两个对象的相似性。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="160">160</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.3.3 服务划分模型</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="161">161</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">为了实现微服务的划分，使平台中应用中的服务复用率有效提高且降低平台中代码的冗余，</span> <span class="g-font-color green">我们基于领域驱动设计思想，设计了服务划分模型，该模型主要有三个阶段组成：</span> <span class="g-font-color green">第一个阶段单体阶段，第二个阶段图阶段，第三个阶段微服务阶段。</span> <span class="g-font-color green">在每两个阶段之间包括一次转换，共涉及两次转换，第一次转换是从单体阶段到图阶段的转换，</span> <span class="g-font-color green">称为构建图过程，第二次转换是从图阶段到微服务阶段的转换，称为聚类过程。</span> <span class="g-font-color green">下面是我们构建图过程的详细步骤：</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="162">162</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">原有平台中的应用处于单体阶段，从单体阶段到图阶段我们称为构建图阶段，此过程如图3-1：</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="163">163</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">图3-1构建图阶段</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="164">164</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">构建图过程中图𝐺</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="165">165</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝐸，𝑉</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="166">166</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">为加权无向图，图中每个顶点</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="167">167</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑣</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="168">168</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑖</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="169">169</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">∈𝑉，对应于单体阶段中的每一个代码文件</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="170">170</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑐</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="171">171</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑖</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="172">172</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">∈𝐶。</span> <span class="g-font-color green">每一个边</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="173">173</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑒</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="174">174</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑘</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="175">175</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">∈𝐸有一个权重w，并且通过定义的权重公式得到。</span> <span class="g-font-color green">权重的大小代表了两个文件之间的耦合程度，顶点</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="176">176</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑣</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="177">177</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑖</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="178">178</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">与顶点</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="179">179</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑣</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="180">180</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">𝑗</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+            </div>
+    <div class="text-center PB30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_4.html"><span>上一页</span></a></li>
+    <li><a href="paper_6.html"><span>下一页</span></a></li>
+    <li><a href="paper_22.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">5</span>/<span>22</span>
+            页
+        </div>    </div>
+    <div style="text-align: center;padding-top:30px">
+         <a href="http://www.118qikan.com/service?f=pp_report_section" target="_blank"><img src="http://file.paperpass.com/images/fabiao.jpg"/></a></div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2019 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/html" template="section">
+    <div class="text-right">
+        <div class="modifyTxt-notice">
+            修改完本段落之后，点击“临时保存”，之后可在上方导航“修改文档”页面中查看修改后的内容
+        </div>
+        <textarea class="form-control resize-none" rows="4" tpl-section="textarea"></textarea>
+        <div class="button-wrap MT10">
+            <button type="button" class="g-btn g-btn-default g-btn-sm red" tpl-section-cancle="btn">取消保存</button>
+            <button type="button" class="g-btn g-btn-default g-btn-sm" tpl-section-save="btn">临时保存</button>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    Report.report_id = '5c7b9a1cc907d6s0q';
+</script>
+<script type="text/javascript">
+    (function(System,$){
+
+        var sectionEdit = System.Paper.sectionEdit();
+        var sectionSave = System.Paper.sectionSave(null);
+        $(function(){
+            $(document).on('click','[tpl-section=btn]',function(){
+                sectionEdit.call(this);
+            });
+            $(document).on('click','[tpl-section-save=btn]',function(){
+                sectionSave.call(this);
+
+            });
+            $(document).on('click','[tpl-section-cancle=btn]',function(){
+                var $warp = $(this).closest('[tpl-section="warp"]');
+                $warp.find('[tpl-section="box"]').html('');
+            });
+
+
+        });
+    })(Report,jQuery);
+
+</script>
+</html>
